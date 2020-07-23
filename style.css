@@ -66,3 +66,18 @@ button:hover {
     width: 100%;
   }
 }
+
+
+.default_size{
+  width: 200px;
+  height: 200px;
+}
+
+.after_click{
+  width: 400px;
+  height: 400px;
+}
+.before_click{
+  width: 200px;
+  height: 200px;
+}
