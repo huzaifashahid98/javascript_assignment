@@ -1169,7 +1169,22 @@ function read_more()
 
 }
 
-// Q3
+
+
+//chapter 52-57
+//Q2
+function modal_size(index)
+{
+    var default_size=document.getElementsByClassName("default_size");
+    default_size[index].className="after_click";
+
+}
+function default_sizer(index)
+{
+    var default_size=document.getElementsByClassName("default_size");
+    default_size[index].className="before_click";
+
+}
 
 
 
