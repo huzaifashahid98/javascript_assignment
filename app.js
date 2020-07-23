@@ -1,5 +1,5 @@
-CHAPTER 6-9
-Q1
+// CHAPTER 6-9
+// Q1
 var a=prompt("Enter Number","0");
 a=parseInt(a);
 document.write("The value of a is: "+a+"<br>");
@@ -17,7 +17,7 @@ a--;
 document.write("The value of a-- is: "+a+"<br>");
 document.write("Now the value of a is: "+a+"<br>");
 
-Q2
+// Q2
 var a = 2, b = 1; 
 var result = --a - --b + ++b + b--;
 document.write("RESULT:"+result+"<br>");
@@ -30,11 +30,11 @@ document.write("RESULT:"+result+"<br>");
 result = --a - --b + ++b + b--;
 document.write("RESULT:"+result+"<br>");
 
-Q3
+// Q3
 var name=prompt("Enter your name","Write here");
 document.write("Hello!!! "+name+" Have a nice day");
 
-Q4
+// Q4
 var num_table=prompt("Enter a number","Write here");
 if(num_table==="")
 {
@@ -56,7 +56,7 @@ else{
     }
 }
 
-Q5
+// Q5
 var subject_1=prompt("Enter first Subject Name","Enter Subject name here");
 var subject_2=prompt("Enter Second Subject Name","Enter Subject name here");
 var subject_3=prompt("Enter third Subject Name","Enter Subject name here");
@@ -71,8 +71,8 @@ document.write("<table><tr><th>SUBJECT</th><th>TOTAL MARKS</th><th>OBTAINED MARK
 
 
 
-CHAPTER 9-11
-Q1
+// CHAPTER 9-11
+// Q1
 var city=prompt("Enter your city name","enter your city name here");
 if (city==="Karachi"||city==="karachi")
 {
@@ -82,7 +82,7 @@ else{
     alert("You are not in city of lights")
 }
 
-Q2
+// Q2
 var gender=prompt("Enter your gender");
 if(gender==="Male"||gender==="male")
 {
@@ -96,7 +96,7 @@ else{
     alert("Input is Invalid")
 }
 
-Q3
+// Q3
 var color=prompt("Enter color of road traffic signal","Enter Color here");
 if (color==="red"||color==="Red")
 {
@@ -113,7 +113,7 @@ else if (color==="green"||color==="Green")
     alert("Invalid Input")
 }
 
-Q4
+// Q4
 var fuel=prompt("Enter remaining fuel");
 if (fuel<0.25)
 {
@@ -123,7 +123,7 @@ else{
     alert("No need to refill")
 }
 
-Q5
+// Q5
 obtained_1=0
 obtained_2=0
 obtained_3=0
@@ -157,7 +157,7 @@ else if(percentage>80)
     document.write("Remarks: Excellent")
 }
 
-Q6
+// Q6
 var gues_number=Math.floor(Math.random()*11);
 var gues=prompt("Enter number to guesss!!!!!");
 if (gues_number==gues)
@@ -169,7 +169,7 @@ else if(gues==gues_number+1||gues==gues_number-1)
     alert("CLOSE ENOUGH TO CORRECT ANSWER")
 }
 
-Q7
+// Q7
 var num=prompt("Enter a number");
 if((num%3)==0)
 {
@@ -179,7 +179,7 @@ else{
     alert("Number is not divisible by 3")
 }
 
-Q8
+// Q8
 var num=prompt("Enter a number");
 if ((num%2)==0)
 {
@@ -189,7 +189,7 @@ else {
     alert("Number is ODD")
 }
 
-Q9
+// Q9
 var temp=parseInt( prompt("Enter temperature"));
 if(temp>10&&temp<20)
 {
@@ -208,7 +208,7 @@ else if(temp>=40)
     alert("It is too hot outside")
 }
 
-Q10
+// Q10
 var first_number=parseInt( prompt("Enter first number"));
 var second_number=parseInt( prompt("Enter second number"));
 var opt=prompt("Enter operation");
@@ -229,7 +229,7 @@ else if(opt=="/")
     alert(first_number/second_number)
 }
 
-chapter 12-13
+// chapter 12-13
 Q1
 var input_var=prompt("Enter a number or Letter","Enter here");
 if (isNaN(input_var))
@@ -247,7 +247,7 @@ else{
     alert("It is a number");
 }
 
-Q2
+// Q2
 var num1=prompt("Enter first number");
 var num2=prompt("Enter second number");
 if(num1==num2)
@@ -263,7 +263,7 @@ else
     alert("Number2 is greater")
 }
 
-Q3
+// Q3
 var num=prompt("Enter a number","Enter number here");
 if (num>0)
 {
@@ -278,7 +278,7 @@ else if(num==0)
     alert("Number is Zero")
 }
 
-Q4
+// Q4
 var letter=prompt("Enter a Letter","Write here");
 if (letter=='a'||letter=='e'||letter=='i'||letter=='o'||letter=='u')
 {
@@ -288,7 +288,7 @@ else{
     alert("Letter is not a Vowel")
 }
 
-Q5
+// Q5
 var correct_password="123456"
 var pass=prompt("Enter password","Enter Passwor here");
 if(pass==="")
@@ -303,7 +303,7 @@ else{
     alert("Incorrect Password")
 }
 
-Q6
+// Q6
 var greeting; 
 var hour = 13;
  if (hour < 18)
@@ -317,7 +317,7 @@ var hour = 13;
     alert(greeting)
 }
 
-Q7
+// Q7
 var time_var=prompt("Enter time in 24hrs format eg:(2400)","Enter time here");
 if(time_var>="0000"&&time_var<"1200")
 {
@@ -336,14 +336,14 @@ else if(time_var>="2100"&&time_var<="2359")
     alert("Good Night")
 }
 
-chapter14-16
-Q1
+// chapter14-16
+// Q1
 var student_names=[];
 
-Q2
+// Q2
 var student_names_object={}
 
-Q3
+// Q3
 var string_array=[];
 string_array[0]="srtring_1";
 string_array[1]="srtring_2";
@@ -353,11 +353,11 @@ for(var i=0;i<3;i++)
     document.write(string_array[i]+"<br>")
 }
 
-Q4
+// Q4
 var num_array=[];
 num_array=[1,2,3]
 
-Q5
+// Q5
 var boolean_array=[];
 boolean_array[0]=false;
 boolean_array[1]=true;
@@ -369,21 +369,21 @@ if(boolean_array[0])
         document.write("TRUE")
     }
 
-Q6
+// Q6
 var mix_array=[];
 mix_array.push("String");
 mix_array.push(34);
 mix_array.push(true);
 document.write(mix_array);
 
-Q7
+// Q7
 var qualification=["SSC","HSC","BCS","BS","BCOM","MS","M.Phil","PhD"];
 for(var i=0;i<qualification.length;i++)
 {
     document.writeln(qualification[i]+"<br>")
 }
 
-Q8
+// Q8
 var student_names=["Micheal","John","Tony"];
 var obtained_marks=[320,230,480];
 total_marks=500;
@@ -396,7 +396,7 @@ for(var i=0;i<student_names.length;i++)
     document.write("SCORE OF "+student_names[i]+" IS "+obtained_marks[i]+". Percentage: "+percentage_array[i]+"%<br>")
 }
 
-Q9
+// Q9
 var color_name=["yellow","Green","Blue"];
 color_name[0]=prompt("Enter Color you want to add in begnning");
 document.write(color_name);
@@ -418,18 +418,18 @@ for(var j=0;j<color_name.length;j++)
 }
 document.write(color_name);
 
-Q10
+// Q10
 var score=[320,230,480,120];
 document.write("Score Of Students "+score+"br")
 score.sort();
 document.write("Ordered Score of Students "+score)
 
-Q11
+// Q11
 var arr=["This","is","my","cat"];
 joint=arr.join()
 document.write(joint)
 
-Q12(FIFO)
+// Q12(FIFO)
 var arr=[];
 arr.push(1);
 document.write(arr+"<br>")
@@ -445,7 +445,7 @@ arr.shift()
 document.write(arr+"<br>")
 
 
-Q13(LIFO)
+// Q13(LIFO)
 var arr=[];
 arr.push(1);
 document.write(arr+"<br>")
@@ -460,7 +460,7 @@ document.write(arr+"<br>")
 arr.pop()
 document.write(arr+"<br>")
 
-Q14
+// Q14
 var manufacturer=["Apple","Sumsung","Motorolla","Nokia","Sony","Haier"];
 manufacturer.forEach(get);
 function get(a)
@@ -468,12 +468,12 @@ function get(a)
     document.write(a+"<br>");
 }
 
-chapter 17-20
-Q1
+// chapter 17-20
+// Q1
 var arr=[]
 arr=[["A",1],["B",2]];
 
-Q2
+// Q2
 var arr=[];
 arr=[[0,1,2,3],[1,0,1,2],[2,1,0,1]];
 arr.forEach(get)
@@ -482,13 +482,13 @@ function get(s)
     document.write(s+"<br>");
 }
 
-Q3
+// Q3
 for(var i=1;i<=10;i++)
 {
     document.write(i+"<br>");
 }
 
-Q4
+// Q4
 var table_num=prompt("Enter Table Number");
 var len=prompt("Enetr table length");
 var result=0;
@@ -498,14 +498,14 @@ for(var i=1;i<=len;i++)
     document.write(table_num+" X "+i+" = "+result+"<br>")
 }
 
-Q5
+// Q5
 var fruits=["apple","banana","mango","Orange","Strawberry"];
 for(var i=0;i<fruits.length;i++)
 {
     document.write(fruits[i]+"<br>");
 }
 
-Q6
+// Q6
 for(var i=1;i<=15;i++)
 {
     document.write(i+" ");
@@ -531,7 +531,7 @@ for(var i=2;i<=20;i+=2)
     document.write(i+"K ");
 }
 
-Q7
+// Q7
 var A=["Cake","Apple Pie","Cookie","Chips","Patties"];
 var search=prompt("Welcome to ABC Bakery. What do you want to order sir/ma'am?");
 ind=A.indexOf(search);
@@ -543,7 +543,7 @@ else{
     document.write(search+" is <b>is available</b> at index "+ind+" in our bakery")
 }
 
-Q8
+// Q8
 var A = [24, 53, 78, 91, 12]
 var temp=0;
 for(var i=0;i<A.length;i++)
@@ -555,7 +555,7 @@ for(var i=0;i<A.length;i++)
 }
 document.write("LARGEST NUMBER IS "+temp)
 
-Q9
+// Q9
 var A = [24, 53, 78, 91, 12]
 temp=100;
 for(var i=0;i<A.length;i++)
@@ -567,7 +567,7 @@ for(var i=0;i<A.length;i++)
 }
 document.write("Smallest NUMBER IS "+temp)
 
-Q10
+// Q10
 for(var i=0;i<=100;i+=5)
 {
     if(i==0)
@@ -580,48 +580,48 @@ for(var i=0;i<=100;i+=5)
    
 }
 
-chapter 21-25
-Q1
+// chapter 21-25
+// Q1
 var first_name=prompt("Enter Your First Name");
 var last_name=prompt("Enter Your Last Name");
 var Full_name;
 Full_name=first_name+" "+last_name;
 alert("Hello!!! "+Full_name);
 
-Q2
+// Q2
 var model=prompt("Enter your Favourite Model");
 document.write("LENGTH OF STRING:"+model.length);
 
-Q3
+// Q3
 var str="Paksitani";
 document.write("INDEX OF 'n': "+str.indexOf('n'));
 
-Q4
+// Q4
 var str="Hello World";
 document.write("LAST INDEX OF 'l': "+str.lastIndexOf('l'));
 
-Q5
+// Q5
 var str="Pakistani";
 document.write(" CHARACTER AT INDEX 3 : "+str.charAt(3));
 
-Q6
+// Q6
 var first_name=prompt("Enter Your First Name");
 var last_name=prompt("Enter Your Last Name");
 var Full_name;
 Full_name=first_name.concat(last_name)
 alert("Hello!!! "+Full_name);
 
-Q7
+// Q7
 var city="Hyderabad";
 var rep = city.replace("Hyderabad","Islamabad");
 document.write(rep);
 
-Q8
+// Q8
 var message="Ali and Sami are best friends. They play cricket and football together.";
 var rep=message.replace(/and/g,"&");
 document.write(rep);
 
-Q9
+// Q9
 var str="472";
 document.write(str+"<br>");
 document.write(typeof str+"<br>")
@@ -629,11 +629,11 @@ var num =parseInt(str);
 document.write(num+"<br>");
 document.write(typeof num)
 
-Q10
+// Q10
 var str=prompt("Enter string to convert in UPPER CASE");
 document.write(str.toUpperCase());
 
-Q11
+// Q11
 var str=prompt("Enter string to convert in UPPER CASE");
 function titleCase(str) {
     str = str.toLowerCase().split(' ');
@@ -646,12 +646,12 @@ function titleCase(str) {
 str=titleCase(str);
 document.write("TITLE CASE: "+str )
 
-Q12
+// Q12
  num=35.36;
  str=num.toString().replace(".","");
 document.write(str);
 
-Q13
+// Q13
 var nam=prompt("Enter Username","Enter here!!")
 var n_split=nam.split('');
 for(var i=0;i<n_split.length();i++)
@@ -664,26 +664,26 @@ for(var i=0;i<n_split.length();i++)
 }
 alert("Hello "+nam);
 
-chapter 26-30
-Q1
+// chapter 26-30
+// Q1
 var num=parseFloat (prompt("Enter Positive integer"));
 document.write("NUmber: "+num+"<br>");
 document.write("Round Off Value: "+Math.round(num)+"<br>");
 document.write("Floor Value: "+Math.floor(num)+"<br>");
 document.write("CEIL: "+Math.ceil(num)+"<br>");
 
-Q2
+// Q2
 var num=parseFloat (prompt("Enter Positive integer"));
 document.write("NUmber: "+num+"<br>");
 document.write("Round Off Value: "+Math.round(num)+"<br>");
 document.write("Floor Value: "+Math.floor(num)+"<br>");
 document.write("CEIL: "+Math.ceil(num)+"<br>");
 
-Q3
+// Q3
 var num=parseFloat (prompt("Enter integer"));
 document.write("The absolute value is: "+Math.abs(num));
 
-Q4
+// Q4
 random_dice=Math.floor( Math.random()*7);
 if(random_dice==0)
 {
@@ -692,7 +692,7 @@ if(random_dice==0)
 }
 document.write("Random Dice Value: "+random_dice);
 
-Q5
+// Q5
 random_coin=Math.floor( Math.random()*2);
 var status;
 if(random_coin==0)
@@ -706,11 +706,11 @@ else{
     document.write("Random Coin Value: "+status);
 }
 
-Q6
+// Q6
 random_num=Math.ceil( Math.random()*99);
 document.write("Random Number between 1 and 100: "+random_num);
 
-Q7
+// Q7
 var weight_2=prompt("Enter your weight","Enter weight here")
 var weight_1=parseFloat (weight_2);
 var w=Math.trunc(weight_1);
@@ -718,7 +718,7 @@ var rep=weight_2.replace(w.toString,"")
 var w1=Math.trunc(rep)
 document.write("The weight of user is "+w+" Kilograms");
 
-Q8
+// Q8
 var random_num=Math.ceil( Math.random()*9);
 var num=parseInt( prompt("Guess the number between 1-10"));
 if(random_num==num)
@@ -731,25 +731,25 @@ else
     document.write("Right Answer is: "+random_num);
 }
 
-chapter 31-34
-Q1
+// chapter 31-34
+// Q1
 var today=new Date();
 var date=today.getDay(0)+" "+today.getMonth()+" "+today.getDate()+" "+today.getHours()+":"+today.getMinutes()+":"+today.getSeconds()+" "+today.getTimezoneOffset();
 document.write(date);
 
-Q2
+// Q2
 var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 var today=new Date();
 var month=today.getMonth()
 document.write("CURRENT MONTH: "+months[month]);
 
-Q3
+// Q3
 var days=["sun","mon","tue","wed","thu","fri","sat"];
 var today=new Date();
 day=today.getDay();
 document.write("Today is: "+days[day]);
 
-Q4
+// Q4
 var today=new Date();
 day=today.getDay();
 if(day==0||day==6)
@@ -760,7 +760,7 @@ else{
     document.write("IT IS WORKING DAY")
 }
 
-Q5
+// Q5
 var today=new Date();
 date=today.getDate();
 if(date<16)
@@ -771,13 +771,13 @@ else{
     document.write("Last day of Month")
 }
 
-Q6
+// Q6
 var today=new Date();
 var time=today.getTime()
 document.write("MIliseconds since january 1,1970: "+time+"msec<br>");
 document.write("Minutes since january 1,1970: "+(time/60000)+"min");
 
-Q7
+// Q7
 var today=new Date();
 hours=today.getHours();
 if(hours%12==hours)
@@ -788,7 +788,7 @@ else{
     document.write("ITS PM")
 }
 
-Q8
+// Q8
 var today=new Date();
 var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 var month_num=today.getMonth()
@@ -808,8 +808,8 @@ document.write("Net Amount Payable(Within Due date): "+na+"<br><br>");
 document.write("Late Amount surcharge: "+lp+"<br>");
 document.write("Gross Amount Payable (After Due Date): "+ga+"<br>");
 
-chapter 35-38
-Q1
+// chapter 35-38
+// Q1
 function date()
 {
     var today=new Date();
@@ -820,7 +820,7 @@ function date()
 }
 date();
 
-Q2
+// Q2
 function name()
 {
     var first_name=prompt("Enter your first name");
@@ -830,7 +830,7 @@ function name()
 }
 name();
 
-Q3
+// Q3
 function sum(a,b)
 {
     return(a+b)
@@ -839,7 +839,7 @@ var c=sum(3,4);
 document.write("ADD:"+c)
 
 
-Q4
+// Q4
 function cal(num1,num2,opra)
 {
     if(opra=='/'&&num2==0)
@@ -868,7 +868,7 @@ var opra=prompt("Enter Operation");
 var result=cal(num1,num2,opra);
 document.write("ANSWER IS "+result);
 
-Q5
+// Q5
 function square(num)
 {
     return(num**2)
@@ -878,7 +878,7 @@ var result=square(num);
 document.write("ANSWER IS "+result);
 
 
-Q6
+// Q6
 function fact(num){
     var f=1;
     for(var i=num;i>0;i--)
@@ -891,7 +891,7 @@ num=prompt("Enter a number to find out its Factorial");
 var result=fact(num);
 document.write("ANSWER IS "+result);
 
-Q7
+// Q7
 function counting(start,end)
 {
     for(var i=start;i<=end;i++)
@@ -904,7 +904,7 @@ var start=prompt("Enter a Start number");
 var end=prompt("Enter a End number");
 counting(start,end);
 
-Q8
+// Q8
 function hyp(base,perp)
 {
     function square(num)
@@ -920,7 +920,7 @@ var base=prompt("Enter a base ");
 var perp=prompt("Enter a perpendicular ");
 hyp(base,perp);
 
-Q9
+// Q9
 function area(h,w)
 {
     return(h*w);
@@ -934,7 +934,7 @@ var result=area(3,2);//by value
 document.write("ANSWER IS "+result);
 
 
-Q10
+// Q10
 function pailndrome(str)
 {
     for(var i=0 ,j=(str.length-1);i<str.length;i++,j--)
@@ -953,9 +953,9 @@ function pailndrome(str)
 var str=prompt("Enter a String to find out it is pailndrome or not");
 pailndrome(str);
 
-chapters38-42
+// chapters38-42
 
-Q1
+// Q1
 function custom_pow(num,pow)
 {
     return(num**pow);
@@ -965,7 +965,7 @@ var pow=prompt("Enter power to be converted");
 var result=custom_pow(num,pow);
 document.write("ANSWER IS "+result);
 
-Q2
+// Q2
 function area(a,b,c)
 {
     var s=(a+b+c)/2;
@@ -978,7 +978,7 @@ var c=prompt("Enter length of Third side");
 var result=area(a,b,c);
 document.write("AREA IS "+result);
 
-Q3
+// Q3
 function main_function(mark1,mark2,mark3)
 {
     function percentage(mark1,mark2,mark3)
@@ -1003,7 +1003,7 @@ var b=prompt("Enter subject 2 marks");
 var c=prompt("Enter subject 3 marks");
 main_function(a,b,c);a
 
-Q4
+// Q4
 function index_of(str,item)
 {
     for(var i=0;i<str.length;i++)
@@ -1019,7 +1019,7 @@ var item=prompt("Enter character you want to search");
 var index=index_of(str,item)
 document.write("The Character "+item+" is present at index "+index);
 
-Q5
+// Q5
 function vowels_Elimination(str)
 {
     for(var i=0;i<str.length;i++)
@@ -1034,7 +1034,7 @@ function vowels_Elimination(str)
 var str=prompt("Enter string to remove vowels");
 vowels_Elimination(str);
 
-Q6
+// Q6
 function meters(kilo_meter)
 {
     var meter=kilo_meter*1000;
@@ -1062,7 +1062,7 @@ var Feet=feet(km);
 var inch=inches(km);
 document.write("INCHES: "+inch+" METERS: "+meter+" CENTIMETER: "+cm+" FEET: "+Feet);
 
-Q7
+// Q7
 function overtime(hours)
 {
    if(hours>40)
@@ -1079,7 +1079,7 @@ var hours=parseInt(prompt("Enter number of working hours"));
 var pay=overtime(hours);
 document.write("YOUR OVERTIME PAY IS "+pay);
 
-Q8
+// Q8
 function denomination(amount)
 {
     var h=Math.trunc( amount/100);
@@ -1094,27 +1094,27 @@ denomination(amount);
 
 
 
-chapter 43-48
+// chapter 43-48
 Q1
 function open_link()
 {
     alert("Thanks for opening this link");
 }
 
-Q2
+// Q2
 function mobile_purchase()
 {
     alert("Thank you for Purchasing this Mobile");
 }
 
-Q3
+// Q3
 function del(i)
 {
     document.getElementById("my_table").deleteRow(i);
 
 }
 
-Q4
+// Q4
 function change_imager()
 {
     imager=document.getElementById("imager");
@@ -1126,7 +1126,7 @@ function remain_imager()
     imager.src="https://images.unsplash.com/photo-1542362567-b07e54358753?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9"
 }
 
-Q5
+// Q5
 function counter_increase()
 {
     input_screen=document.getElementById("input_screen");
@@ -1137,3 +1137,89 @@ function counter_decrease()
     input_screen=document.getElementById("input_screen");
     input_screen.value--;
 }
+
+// chapter 49-52
+// Q1
+function submission()
+{
+    email=document.getElementById("email");
+    password=document.getElementById("password");
+    password_confirm=document.getElementById("password_confirm");
+
+    var mail=email.value;
+    var pass=password.value;
+    var repass=password_confirm.value;
+    if(pass==repass)
+    {
+        document.write("<h1>YOUR SUBMISSION</h1>");
+        document.write("<b>MAIL</b>:"+mail+"<br>");
+        document.write("<b>PASSWORD</b>: "+pass);
+    }
+    else
+    {
+        document.write("<b>PASSWORD ERROR</b>")
+    }
+}
+
+// Q2
+function read_more()
+{
+    var para=document.getElementById('para');
+    para.innerHTML="Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, hic laudantium qui dolor magnam ipsum eveniet minus quis error iure nihil dolore. Rem eligendi, quos numquam incidunt consectetur repellat culpa!  Lorem ipsum dolor sit amet consectetur adipisicing elit. Et doloremque ab dolorum dignissimos amet necessitatibus ipsa ex eum odio minus rerum, nihil nobis! Quisquam illum suscipit maiores dolores. Possimus, rerum."
+
+}
+
+// Q3
+
+
+
+
+
+// 58-67
+// Q1
+function dom1()
+{
+    var main_content=document.getElementById("main-content");
+    console.log(main_content.childNodes);
+    var render=document.getElementsByClassName("render");
+    for(var i=0;i<5;i++)
+    {
+        console.log(render[i].innerHTML);
+    }
+    var first_name=document.getElementById("first-name");
+    first_name.value="Huzaifa";
+    console.log(first_name.value)
+    var lastname=document.getElementById("last-name");
+    lastname.value="Shahid";
+    console.log(lastname.value)
+    var email=document.getElementById("email");
+    email.value="alexbank@example.com"
+    console.log(email.value)
+    
+}
+dom1()
+
+// Q2
+function dom2()
+{
+    var form_content=document.getElementById("form-content");
+    console.log("FORM CONTENT NODE TYPE: "+form_content.nodeType);
+    var lastname=document.getElementById("lastName");
+    console.log("LAST NAME NODE TYPE: "+lastname.nodeType);
+    var last_name_text=document.createTextNode("BANK LIMITED");
+    lastname.innerHTML="Last Name: "
+    lastname.appendChild(last_name_text);
+    console.log(lastname.innerHTML);
+    var main_content=document.getElementById("main-content");
+    console.log("FIRST CHILD"+main_content.firstChild);
+    console.log("LAST"+main_content.lastChild);
+    console.log("NEXT SIBLING OF LASTNAME "+lastname.nextSibling);
+    console.log("PREVIOUS SIBLING OF LAST NAME "+lastname.previousSibling);
+    var email=document.getElementById("email");
+    console.log("EMAIL PARENT NODE "+email.parentNode);
+    console.log("NODE TYPE EMAIL "+email.nodeType);
+
+
+}
+dom2()
+
